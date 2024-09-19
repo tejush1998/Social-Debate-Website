@@ -11,12 +11,12 @@ Install neo4j desktop to run app locally
 - Run the bash script using neo4j.sh start
 
 ### Backend
-cd to backend-neo4j 
+Cd to backend-neo4j 
 - run npm i
 - run npm run start
 
 ### Frontend
-cd to frontend-svelte  
+Cd to frontend-svelte  
 - run npm i
 - run npm run dev
 - go to localhost:5173 and enjoy the app!
