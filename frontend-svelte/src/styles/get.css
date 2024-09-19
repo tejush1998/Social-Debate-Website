@@ -1,0 +1,45 @@
+main {
+  text-align: center;
+  background-color: #fefffe;
+  color: black;
+}
+h2,h3 {
+  color: black;
+
+}
+.left {
+  display: inline-block;
+  width: 640px;
+  margin-left: 230px;
+  overflow: auto; /* Enable scrolling when necessary */
+  height: 500px;
+  padding: 0px;
+}
+h4 {
+  text-align: left;
+}
+.mid {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  background-color: #fefffe;
+  width: 200px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.mainHolder {
+  display: inline-block;
+  width: 640px;
+  margin-left: 230px;
+  margin-top: 20px;
+}
+#inputType {
+  width: 640px;
+  height: 100px;
+}
+.commentFooter {
+  height: 20px;
+  display: flex;
+  align-items: flex-end; /* Vertically center items */
+  justify-content: flex-start; /* Align items to the right */
+}

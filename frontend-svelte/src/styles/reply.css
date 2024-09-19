@@ -1,0 +1,8 @@
+.footerComment {
+  display: flex;
+  justify-content: flex-end;
+}
+button {
+  margin-right: 10;
+  font-size: x-small;
+}

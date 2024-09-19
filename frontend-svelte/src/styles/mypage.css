@@ -1,0 +1,14 @@
+.top {
+  display: block;
+  height: 35px;
+  background-color: #fefffe;
+  text-align: left;
+}
+p {
+  margin-top: 5px;
+  display: inline-block;
+  margin-left: 30px;
+}
+#twx {
+  margin-left: 470px;
+}

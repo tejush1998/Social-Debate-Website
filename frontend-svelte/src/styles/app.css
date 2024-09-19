@@ -1,0 +1,12 @@
+body {
+  background-color: #dae1e7;
+  padding: 0px;
+  height: 100%;
+  margin: 0px;
+}
+
+.top {
+  display: block;
+  height: 30px;
+  background-color: #fefffe;
+}

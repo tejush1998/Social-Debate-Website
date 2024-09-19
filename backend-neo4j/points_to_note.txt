@@ -1,0 +1,7 @@
+check indexing later
+
+MATCH (u:User)-[r:UPVOTE_COMMENT]-(c:Comment)
+DELETE r
+
+MATCH (u:User)-[r1:PARENT_COMMENT_BY_USER]-(c:Comment)-[r2:COMMENT_TO_THREAD_FOR]-(t:Thread)
+DELETE r1,c,r2

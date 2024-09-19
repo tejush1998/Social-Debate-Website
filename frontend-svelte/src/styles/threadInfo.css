@@ -1,0 +1,26 @@
+.left {
+  /* Align items to the start of the cross axis (left) */
+  width: 900px;
+  margin-left: 230px;
+  overflow: auto; /* Enable scrolling when necessary */
+  height: 670px;
+  padding: 0px;
+  display: block;
+  border: 1px solid black;
+}
+.commentMain {
+  display: flex;
+  justify-content: space-evenly;
+}
+main {
+  text-align: center;
+  background-color: #fefffe;
+  width: 600px;
+  margin: auto;
+}
+.commentFooter {
+  height: 20px;
+  display: flex;
+  align-items: flex-end; /* Vertically center items */
+  justify-content: flex-start; /* Align items to the right */
+}

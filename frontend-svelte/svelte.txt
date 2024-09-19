@@ -1,0 +1,35 @@
+
+Dom events like onclick or custom events like dispatcher
+
+You can send Dom events from child to parent by default
+But you can't send variable
+You can pass on:click from child to parent also, if on:click is decalred at call of child component
+in parent component like on:message
+
+You can import functions from parent function and p much run them from child component
+You can pass data also
+But you will have tight coupling and its not pub sub event arch
+So can use dispatcher, custom event
+
+Button onclick=function in native js
+In svelte we can do button on:click={function}
+
+Whenever I emit event from component I have to display the component as well, basically 
+Call that component and hence display that component
+You can pass a prop to a component and also listen for event from that component at same time
+
+Better to create seperate api file with normal javascript for handling everything other than ui
+Separating the rendering of details from the child component allows you to reuse the child component
+in different contexts or scenarios
+
+Bindings//
+<input bind:value={name}>
+This means that not only will changes to the value of name 
+update the input value, but changes to the input value will update name.
+
+Parent as inline-block:
+The parent element will be treated as an inline element in terms of flow,
+ meaning it will sit inline with other elements, but it will behave like a block element regarding its content.
+
+svelte-preprocess has some additional functionality not found in vitePreprocess 
+such as support for Pug, Babel, and global styles
