@@ -1,3 +1,5 @@
+![](https://github.com/tejush1998/Social-Debate-Website/blob/main/The_Demo.gif)
+
 # Social Debate Website
 
 ### A social media website for debating your friends! Made with Svelte and Neo4j
