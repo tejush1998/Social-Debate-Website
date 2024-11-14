@@ -18,7 +18,7 @@ Cd to backend-neo4j
 - run npm run start
 
 ### Frontend
-Cd to frontend-svelte  
+Cd to frontend-svelte-5  
 - run npm i
 - run npm run dev
 - go to localhost:5173 and enjoy the app!
